@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #080808;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left, .right {
+            flex: 1;
+            margin: 10px;
+        }
+        .Contact, .Skills, .Certifications, .Summary {
+            margin-bottom: 20px;
+        }
+        .Skills ul, .Certifications ul {
+            list-style: none;
+            padding: 0;
+        }
+        .Skills ul li, .Certifications ul li {
+            margin-bottom: 10px;
+        }
+        .Skills ul li b, .Certifications ul li b {
+            font-weight: bold;
+        }
+        .Summary p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="img" align="right">
+        <img  src="D:\resumeimg.png" style="width:100px;height:100px;">
+        </div>
+        <div class="left">
+            <div class="Contact">
+                <h2>Personal Details</h2>
+                <p><b>Name:</b> Arun Teja</p>
+                <p><b>Email id:</b> xyz@gmail.com</p>
+                <p><b>Mobile no :</b> 1234567890</p>
+             <p><b>Github url:</b><a href="https://github.com/arunteja16" target="_blank">arunteja16</a></p>
+            </div>
+            <div class="Skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li><b>UI/UX learner</b></li>
+                    <li><b>Frontend: HTML5, CSS3, JavaScript, React</b></li>
+                    <li><b>Backend: Node.js</b></li>
+                </ul>
+            </div>
+            <div class="Certifications">
+                <h2>Certifications</h2>
+                <ul>
+                    <li><b>NPTEL in IOT</b></li>
+                    <li><b>AICTE in Data Processing</b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
